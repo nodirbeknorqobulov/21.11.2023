@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: red;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+ul li{
+    list-style-type: none;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.home{
+    position: relative;
+}
+
+.lorem{
+    position: absolute;
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 20px;
+    display: none;
+}
+
+.home:hover .lorem{
+    display: block;
+}
+
+.tag{
+    position: relative;
+}
+
+.contant{
+    position: absolute;
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 20px;
+    display: none;
+}
+
+.tag:hover .contant{
+    display: block;
+}
+
